@@ -3,6 +3,8 @@ from redis import Redis
 from random import *
 import random
 
+# some comment added
+
 app = Flask(__name__)
 redis = Redis(host='redis', port=6379)
 
